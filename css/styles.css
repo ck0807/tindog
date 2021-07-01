@@ -1,0 +1,158 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+#title, #cta {
+  background-color: #ff4c68;
+  color: #fff;
+}
+h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-size: 2.5em;
+  font-weight: 800;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+/* Download Button */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+.btn-dark:hover {
+  background-color: #fff;
+  color: black;
+
+}
+/* Title Img */
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+/* Features section */
+#features {
+  margin-top: 0; 
+}
+#features i {
+  
+  color: rgb(255,75,107);
+}
+#features i:hover, i:focus{
+  
+  color: rgba(255,75,107,0.8);
+}
+#features div {
+  text-align: center;
+}
+#features .col-sm-12 {
+  margin: 10% 0;
+}
+#features .row {
+  background-color: #fff;
+  position: relative;
+}
+
+/* Testimonials section */
+#testimonials {
+  
+  text-align: center;
+  background-color:rgb(239,129,114);
+  color: #fff;
+
+}
+#testimonials h2 {
+  font-family: 'Jomhuria', cursive;
+  font-size: 2rem;
+  line-height: 1.5em;
+  font-weight: 900;
+}
+
+.testimonials-img {
+  width: 15%;
+  border-radius: 50%;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* press section */
+#press {
+  background-color: rgb(239,129,114);
+  text-align:center;
+}
+.press-img {
+  width: 20%;
+  margin: 20px;
+}
+/* pricing section */
+#pricing {
+  text-align: center;
+  margin-top: 10%;
+  
+}
+.card-header {
+  background-color:#e76f51 ;
+  color: #fff;
+}
+.card-body h2 {
+  color: #e63946;
+}
+#pricing .l-body p {
+  margin-bottom: 5px;
+
+}
+#pricing button {
+  border-color:#e63946 ;
+  color: #e63946;
+}
+#pricing button:hover, button:focus {
+  border-color:#FC74BD;
+  color: #FC74BD;
+  border-bottom: 7px ;
+  box-shadow: 0 5px;
+}
+/* Download secion */
+#cta {
+  margin-top: 10%;
+  height: 300px;
+  text-align: center;
+  padding: 100px;
+  margin-bottom: 10%;
+}
+
+
+/* Footer Section */
+#footer {
+  text-align: center;
+}
+#footer i {
+  padding-left: 50px;
+  color: grey;
+  padding-bottom:20px ;
+}
+#footer i:hover, i:focus {
+  color: #C7CFF5;
+}
+#footer p {
+  font-family: 'Jomhuria', cursive;
+}
+/* show on phone/ media section */
+@media {
+  
+}
